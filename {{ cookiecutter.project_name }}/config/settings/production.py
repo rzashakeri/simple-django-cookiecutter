@@ -27,9 +27,9 @@ DEBUG = env.bool("DEBUG", False)
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # though not all of them may be available with every OS.
 # In Windows, this must be set to your system time zone.
-TIME_ZONE = {{ cookiecutter.time_zone }}
+TIME_ZONE = "{{ cookiecutter.time_zone }}"
 # https://docs.djangoproject.com/en/dev/ref/settings/#language-code
-LANGUAGE_CODE = {{ cookiecutter.language_code }}
+LANGUAGE_CODE = "{{ cookiecutter.language_code }}"
 # https://docs.djangoproject.com/en/dev/ref/settings/#languages
 # from django.utils.translation import gettext_lazy as _
 # LANGUAGES = [
@@ -172,7 +172,7 @@ EMAIL_TIMEOUT = 5
 # Django Admin URL.
 ADMIN_URL = env("ADMIN_URL", default="/admin/")
 # https://docs.djangoproject.com/en/dev/ref/settings/#admins
-ADMINS = [("""{{ cookiecutter.admin_name }}""", {{ cookiecutter.admin_email }})]
+ADMINS = [("""{{ cookiecutter.admin_name }}""", "{{ cookiecutter.admin_email }}")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
 MANAGERS = ADMINS
 
