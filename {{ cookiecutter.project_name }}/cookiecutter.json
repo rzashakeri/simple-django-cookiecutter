@@ -1,0 +1,11 @@
+{
+  "project_name": "project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author": "Anonymous",
+  "time_zone": "UTC",
+  "language_code": "en-us",
+  "admin_name": "admin",
+  "admin_email": "admin@mail.com",
+  "domain": "example.com",
+  "email": "admin@example.com"
+}
