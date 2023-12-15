@@ -1,6 +1,6 @@
 #  Simple django cookiecutter
 
-django cookiecutter based on main django template but with Optimized development and production settings 
+**Simple django cookiecutter** based on main django template but with Optimized `development` and `production` settings 
  
 
 
